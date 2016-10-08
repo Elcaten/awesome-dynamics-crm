@@ -1,0 +1,50 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Description/@EntryValue">Early Bound Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Text/@EntryValue">using GMCS.CrmCore.Domain.Entity;&#xD;
+using GMCS.NBN.Xrm.Domain.OptionSet;&#xD;
+using Microsoft.Xrm.Client;&#xD;
+using Microsoft.Xrm.Sdk;&#xD;
+using Microsoft.Xrm.Sdk.Client;&#xD;
+using System;&#xD;
+using System.Collections.Generic;&#xD;
+using System.Runtime.Serialization;&#xD;
+&#xD;
+namespace GMCS.NBN.Xrm.Domain.Entity&#xD;
+{&#xD;
+    /// &lt;summary&gt;&#xD;
+    ///&#xD;
+    /// &lt;/summary&gt;&#xD;
+	[DataContract]&#xD;
+	[EntityLogicalName(EntityLogicalName)]&#xD;
+	public class $CLASS$ : OwnedEntityBase&#xD;
+	{&#xD;
+		public const string EntityLogicalName = "$CRMENTITYNAME$";&#xD;
+		public $CLASS$() : base(EntityLogicalName) { }&#xD;
+&#xD;
+		#region Атрибуты сущности&#xD;
+&#xD;
+		#endregion&#xD;
+&#xD;
+		#region Схемы полей&#xD;
+		public struct FieldNames&#xD;
+		{&#xD;
+			$END$&#xD;
+		}&#xD;
+		#endregion&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/CustomProperties/=FileName/@EntryIndexedValue">NewEntity</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Field/=CRMENTITYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Field/=CRMENTITYNAME/Expression/@EntryValue">suggestVariableName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Field/=CRMENTITYNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=91FFB61A45794647994C6146C8B56070/Field/=CLASS/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
